@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="d-flex">
+        <div id="sidebar-container" class="bg-primary">
+            <div class="logo">
+                <h4 class="text-ligth">SISFAC <ion-icon name="grid-outline"></ion-icon></h4>
+            </div>
+            <div class="menu">
+                <a href="#" class="d-block p-3 text-ligth"><ion-icon name="tv-outline"></ion-icon>Inicio</a>
+                <a href="#" class="d-block p-3 text-ligth"><ion-icon name="medical-outline"></ion-icon>Mantenimiento</a>
+                <a href="#" class="d-block p-3 text-ligth"><ion-icon name="calculator-outline"></ion-icon>Ventas</a>
+                <a href="#" class="d-block p-3 text-ligth"><ion-icon name="cart-outline"></ion-icon>Compras</a>
+                <a href="#" class="d-block p-3 text-ligth"><ion-icon name="clipboard-outline"></ion-icon>Reportes</a>
+                <a href="#" class="d-block p-3 text-ligth"><ion-icon name="file-tray-full-outline"></ion-icon>Backup</a>
+                <a href="#" class="d-block p-3 text-ligth"><ion-icon name="construct-outline"></ion-icon>Configuracion</a>
+                <a href="#" class="d-block p-3 text-ligth"><ion-icon name="exit-outline"></ion-icon>Cerrar Sesion</a>
+            </div>
+        </div>
+        <div>
+            <nav>
+                <h5 id="usuario"><ion-icon name="person-circle-outline"></ion-icon> admin</h5>
+                <h5 class="sesion">Cerrar Sesion <ion-icon name="exit-outline"></ion-icon></h5>
+            </nav>
+                <div>
+                    <h1>Nueva Compra</h1>
+                    <hr>
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                          <div class="fecha">
+                            <label for="validationCustom01">Fecha:</label>
+                            <input type="number" class="form-control" id="validationCustom01" value="Mark" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                          </div>
+                          <div class="proveedores">
+                            <label for="validationCustom02">Proveedor(es):</label>
+                            <input type="text" class="form-control" id="validationCustom02" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                          </div>
+                          <div class="codigo">
+                            <label for="validationCustom02">Codigo de barra:</label>
+                            <input type="number" class="form-control" id="validationCustom02" value="Otto" required>
+                            <div class="valid-feedback">
+                              Looks good!
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="descripcion">
+                            <label for="validationCustom03">Descripcion:</label>
+                            <input type="text" class="form-control" id="validationCustom03" required>
+                            <div class="invalid-feedback">
+                              Please provide a valid city.
+                            </div>
+                          </div>
+                          <div class="presentacion">
+                            <label for="validationCustom04">Presentacion:</label>
+                            <input type="text" class="form-control" id="validationCustom03" required>
+                          </div>
+                          <div class="precio">
+                            <label for="validationCustom05">Precio:</label>
+                            <input type="number" class="form-control" id="validationCustom05" required>
+                            <div class="invalid-feedback">
+                              Please provide a valid zip.
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                </div>
+               <div class="tabla1">
+                   <table class="t_documento" border="1" style="border: 1px;">
+                       <thead class="thead-dark">
+                           <tr >
+                               <th scope="col">TIPO DE DOCUMENTO</th>
+                           </tr>
+                       </thead>
+                       <tbody>
+                           <tr>
+                               <th scope="row">
+                                   <select name="" id="fac">
+                                       <option value="">FACTURA</option>
+                                       <option value="">BOLETA</option>
+                                   </select><br>
+                                   <div id="numbers">
+                                    <input type="number"  id="n1" required>
+                                    <input type="number" id="n2" required>
+                                   </div>
+                                   
+                               </th>
+                           </tr>
+                       </tbody>
+                   </table>
+               </div>
+               <div class="tabla2">
+                <table class="table">
+                    <thead>
+                      <tr class="titulot">
+                        <th scope="col">Item</th>
+                        <th scope="col">Descripcion</th>
+                        <th scope="col">Presentacion</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Importe</th>
+                        <th scope="col">Eliminar</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Gaseosa Inka Kola</td>
+                        <td>LT</td>
+                        <td>40</td>
+                        <td>1.20</td>
+                        <td>48.00</td>
+                        <td><input id="eliminar_b" type="button" value="-"></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Agua Mineral San Mateo</td>
+                        <td>LT</td>
+                        <td>50</td>
+                        <td>1.20</td>
+                        <td>60.00</td>
+                        <td><input id="eliminar_b"  type="button" value="-"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+               </div>
+        </div>
+        <div class="botones">
+        <a class="button" id="b_n" title="nuevo" href=""><ion-icon name="add-circle-outline"></ion-icon> Nuevo</a>
+        <a class="button" id="b_a" title="agregar" href=""><ion-icon name="create-outline"></ion-icon>Agregar</a>
+        <a class="button" id="b_r" title="registrar" href=""><ion-icon name="document-attach-outline"></ion-icon>Registrar</a>
+        </div>
+        <div class="tabla3">
+            <table class="table">
+                <tbody>
+                  <tr>
+                    <th scope="row">SUBTOTAL:</th>
+                    <td>180.00</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">IGV:</th>
+                    <td>19.44</td>
+                    
+                  </tr>
+                  <tr class="total">
+                    <th scope="row">TOTAL:</th>
+                    <td>127.44</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    </body>
+</html>

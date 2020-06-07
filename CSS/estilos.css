@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300px;
+    color: rgb(10, 10, 10);
+}
+h4{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.bg-primary{
+    background-color: rgb(11, 11, 12) !important;
+}
+a:hover{
+    text-decoration: none;
+    color: rgba(246, 251, 252, 0.925);
+}
+#sidebar-container{
+    min-height: 670px;
+    min-width: 300px;
+
+}
+#sidebar-container.logo{
+    padding: 14px 20px;
+}
+.text-ligth{
+    color: white;
+}
+#sidebar-container.menu{
+    width: 288px;
+
+}
+h5{
+    color: black;
+    font-size: 15px;
+}
+h5.sesion{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 900px;
+}
+.proveedores{
+    margin-left: 10px;
+}
+.codigo{
+    width: 130px;
+    margin-left: 10px;
+}
+ .fecha{
+     width: 150px;
+     margin-left: 60px;
+ }
+ .descripcion{
+     width: 255px;
+    margin-left: 60px;
+ }
+ .presentacion{
+     margin-left: 10px;
+     width: 150px;
+ }
+ .precio{
+     margin-left: 10px;
+     width: 95px;
+ }
+ .tabla1{
+     position: fixed;
+     margin-left: 600px;    
+     margin-top: -155px;
+     
+ }
+.t_documento{
+    width: 380px;
+    
+}
+
+.thead-dark{
+    color: white;
+    text-align: center;
+    background-color: rgba(100, 148, 237, 0.74);
+    font-size: large;
+    height: 40px;
+    font-style: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ #fac{
+     border-color: gainsboro;
+     color: rgb(160, 156, 156);
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin-left: 50px;
+     width:80%;
+     height: 30px;
+     border-radius: 2px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+ }
+ #n1{
+     margin-bottom: 30px;
+     margin-left:50px;
+     margin-right: 10px;
+     width: 140px;
+     border-radius: 4px;
+    
+ }
+ #n2{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    width: 140px;
+ }
+ .botones{
+     position: fixed;
+     margin-top: 270px;
+     margin-left: 650px;
+ }
+ .button{
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     padding: 9px 6px;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    
+ }
+ #b_n{
+    background-color: rgba(0, 110, 255, 0.658);
+ }
+ #b_a{
+     background-color: rgb(102, 153, 43);
+ }
+ #b_r{
+     background-color: black;
+ }
+ a:hover{
+     background-color: rgb(123, 128, 127);
+ }
+ .tabla2{
+     position: fixed;
+     margin-top: 100px;
+     margin-left: 40px;
+     width: 70%;
+     text-align: center;
+ }
+ #eliminar_b{
+     background-color: red;
+     font-weight: bold;
+     width: 20px;
+     border-radius: 2px;
+     border: none;
+     color: white;
+     
+ }
+ h1{
+     font-size: 30px;
+ }
+ .tabla3{
+     margin-top: 500px;
+     margin-left: 200px;
+     text-align: center;
+ }
+ .total{
+     background-color: rgba(100, 148, 237, 0.575);
+     font-size: 20px;
+ }
+ .titulot{
+    background-color: rgba(100, 148, 237, 0.575);
+ }
